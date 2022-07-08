@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,6 +36,10 @@ body {
 .mybutton:hover .hover-eliment {
   margin-top: -3%;
   opacity: 100%;
+}
+
+.all-sections-padinds {
+  padding: 10% 0% 5% 0%;
 }
 
 .my-navigation {
@@ -111,7 +116,7 @@ nav button {
   content: "";
   position: absolute;
   width: 0%;
-  background-color: #ee1515;
+  background-color: #ed2121;
   height: 0.4rem;
   bottom: 0%;
   left: 12%;
@@ -125,7 +130,8 @@ nav button {
 }
 
 .bennar {
-  background-image: url(../images/my-creation-2.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.377))), url(../images/my-creation-2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.377) 0% rgba(0, 0, 0, 0.393) 100%), url(../images/my-creation-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -212,7 +218,7 @@ nav button {
 
 .carousel-inner .mybutton {
   display: inline-block;
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 1.2% 6%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -236,7 +242,6 @@ nav button {
 
 .first {
   width: 100%;
-  padding: 5% 0% 5% 0%;
 }
 
 .first .main-carv {
@@ -261,7 +266,7 @@ nav button {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #ee1515;
+  background-color: #ed2121;
   border-top-right-radius: 200px;
   border-bottom-left-radius: 200px;
   z-index: -2;
@@ -306,7 +311,7 @@ nav button {
 }
 
 .first .left-way .b-t-2 {
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 2.5% 6%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -359,7 +364,6 @@ nav button {
 
 .secend {
   width: 100%;
-  padding: 0% 0% 5% 0%;
   text-align: center;
 }
 
@@ -413,7 +417,7 @@ nav button {
   width: 20%;
   text-align: left;
   font-size: 4rem;
-  color: #ee1515;
+  color: #ed2121;
 }
 
 .secend .sec-wrepar .spekers .info-of-icons {
@@ -445,7 +449,6 @@ nav button {
 
 .thard {
   width: 100%;
-  padding: 5% 0%;
   background-color: #fafafa;
 }
 
@@ -468,7 +471,7 @@ nav button {
 }
 
 .thard .thard-wraper .template-1 h4 {
-  color: #ee1515;
+  color: #ed2121;
   font-size: 1.6rem;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -526,7 +529,7 @@ nav button {
 }
 
 .thard .thard-wraper .template-1 .offer .right-part-1 .magic-styk i {
-  color: #ee1515;
+  color: #ed2121;
 }
 
 .thard .thard-wraper .template-1 .offer .right-part-1 .about-magik {
@@ -551,7 +554,7 @@ nav button {
 
 .thard .thard-wraper .template-1 .thard-button {
   display: inline-block;
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 1.8% 9%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -585,7 +588,6 @@ nav button {
 
 .fourt {
   width: 100%;
-  padding: 5% 0%;
 }
 
 .fourt .fourt-wrepar {
@@ -663,7 +665,7 @@ nav button {
 }
 
 .fourt .fourt-wrepar .fourth-child .textariaa i:hover {
-  background-color: #ee1515;
+  background-color: #ed2121;
   color: #fff;
 }
 
@@ -677,7 +679,7 @@ nav button {
 
 .fourt .fourt-wrepar .fouth-button {
   display: inline-block;
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 1% 5%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -694,7 +696,6 @@ nav button {
 .fiifth {
   width: 100%;
   background-color: #26264b;
-  padding: 5% 0%;
 }
 
 .fiifth .fifth-wraepar {
@@ -717,7 +718,7 @@ nav button {
 }
 
 .fiifth .fifth-wraepar .work #fifth-p {
-  color: #ee1515;
+  color: #ed2121;
   font-size: 1.6rem;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -769,7 +770,7 @@ nav button {
 }
 
 .sixth #sixth-p {
-  color: #ee1515;
+  color: #ed2121;
   font-size: 1.6rem;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -865,7 +866,7 @@ nav button {
 
 .sixth .sixth-wrepar .sixth-child .sixth-button {
   display: inline-block;
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 3% 15%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -957,7 +958,7 @@ nav button {
 
 .sixth .sixth-child-midal .sixth-button-midal {
   display: inline-block;
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 3% 15%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -1084,7 +1085,7 @@ nav button {
 .seventh {
   width: 100%;
   background-image: url(../images/test-clients-bg.png);
-  background-color: #EE1515;
+  background-color: #ed2121;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5% 0%;
@@ -1196,7 +1197,7 @@ nav button {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #ee1515;
+  background-color: #ed2121;
   border-top-right-radius: 200px;
   border-bottom-left-radius: 200px;
   z-index: -2;
@@ -1241,7 +1242,7 @@ nav button {
 }
 
 .eight .left-way .b-t-2 {
-  background-color: #ee1515;
+  background-color: #ed2121;
   padding: 2.5% 6%;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
@@ -1355,7 +1356,7 @@ footer .ninth-wrepar .ninth-chld .address .location {
 
 footer .ninth-wrepar .ninth-chld .address .location i {
   font-size: 1.8rem;
-  color: #ee1515;
+  color: #ed2121;
 }
 
 footer .ninth-wrepar .ninth-chld .address .levele {
@@ -1425,7 +1426,7 @@ footer .ninth-wrepar .ninth-chld .twts .path p {
 
 footer .ninth-wrepar .ninth-chld .twts .path p a {
   text-decoration: none;
-  color: #ee1515;
+  color: #ed2121;
 }
 
 footer .ninth-wrepar .ninth-chld .views {
@@ -1492,7 +1493,7 @@ footer .ninth-wrepar .ninth-chld .views .path .eye .boll-1 {
 
 footer .ninth-wrepar .ninth-chld .views .path .eye .boll-1 i {
   font-size: 1.1rem;
-  color: #ee1515;
+  color: #ed2121;
   margin-top: 5%;
 }
 
@@ -1516,7 +1517,7 @@ footer .ninth-wrepar .ninth-chld .views .path .eye .boll-2 {
 
 footer .ninth-wrepar .ninth-chld .views .path .eye .boll-2 i {
   font-size: 1.1rem;
-  color: #ee1515;
+  color: #ed2121;
   margin-top: 5%;
 }
 
@@ -1594,7 +1595,7 @@ footer .ninth-wrepar .ninth-chld .tags .b-t-gourp form input {
 
 footer .ninth-wrepar .ninth-chld .tags .b-t-gourp form button {
   padding: 4% 5.5%;
-  background-color: #ee1515;
+  background-color: #ed2121;
   border-top-right-radius: 1rem;
   border-top-left-radius: 0rem;
   border-bottom-right-radius: 0rem;
@@ -1694,7 +1695,7 @@ footer .ninth-wrepar .ninth-chld #tag-3 .social-link a {
 
 .last-footer {
   width: 100%;
-  background-color: #ee1515;
+  background-color: #ed2121;
 }
 
 .last-footer .l-f-wrepar {
@@ -2276,11 +2277,11 @@ footer .ninth-wrepar .ninth-chld #tag-3 .social-link a {
   nav ul {
     margin-top: -0.5%;
   }
-}
-
-@media only screen and (max-width: 679px) {
   nav ul {
     margin-top: -0.5%;
+  }
+  .all-sections-padinds {
+    padding: 15% 0% 5% 0%;
   }
 }
 
@@ -3031,6 +3032,9 @@ footer .ninth-wrepar .ninth-chld #tag-3 .social-link a {
   }
   .fa-bars {
     font-size: 2.4rem;
+  }
+  .all-sections-padinds {
+    padding: 17% 0% 5% 0%;
   }
 }
 /*# sourceMappingURL=maltitask.css.map */
